@@ -1,0 +1,95 @@
+body {
+  background-image: url("../assets/background_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* --- Main --- */
+
+main.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1400px;
+  padding: 18px;
+  padding-top: 120px;
+  display: flex;
+  align-items: center; 
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.main-content h1 {
+  margin-bottom: 16px;
+}
+
+.main-content .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content .cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 2px 5px 5px rgba(103, 103, 103, 0.301);
+  cursor: pointer;
+  margin: 0 20px;
+
+  max-width: 300px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.main-content .cards .card:hover {
+  scale: 1.1;
+  transition: 0.2s;
+}
+
+.main-content .cards .card div {
+  padding: 15px 20px;
+}
+
+.main-content .cards .card p {
+  font-size: 0.85rem;
+  margin-top: 15px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.main-content .cards .card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+  padding-bottom: 10px;
+  object-fit: cover;
+}
+
+.main-content .cards .card img.moon {
+  object-position: 0 -150px;
+}
+
+.subtitulo p {
+  margin-bottom: 45px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: rgb(200, 194, 194);
+}
+.conteudo-home img{
+  
+  width: 70px;
+  height: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+body { overflow-x: hidden; }
